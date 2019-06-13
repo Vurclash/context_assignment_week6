@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import 'semantic-ui-css/semantic.min.css';
 import { BrowserRouter, } from 'react-router-dom';
+import UserProvider from './providers/UserProvider';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
- document.getElementById('root'));
+  <UserProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </UserProvider>,
+  document.getElementById('root'));
