@@ -10,12 +10,12 @@ const Navbar = () => (
         <NavLink to="/">
           <Menu.Item>
             Home
-      </Menu.Item>
+          </Menu.Item>
         </NavLink>
         <NavLink to="user/profile">
           <Menu.Item>
             {value.username}
-      </Menu.Item>
+          </Menu.Item>
         </NavLink>
       </Menu>
     )}

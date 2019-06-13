@@ -7,7 +7,7 @@ export const UserConsumer = UserContext.Consumer;
 class UserProvider extends React.Component {
   state = {
     username: "Lotturas",
-    dateJoined: "02/01/1994",
+    dateJoined: "02/01/2015",
     userAvater: "Emperor",
     updateUser: (user) => this.updateUser(user)
   };

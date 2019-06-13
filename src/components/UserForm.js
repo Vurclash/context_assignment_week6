@@ -5,7 +5,7 @@ import { UserConsumer, } from '../providers/UserProvider';
 class UserForm extends React.Component {
   state = { username: this.props.username, userAvatar: this.props.userAvatar, };
 
-  handleChange = (e, { name, value }) => this.setState({ [name]: value, });
+  handleChange = (e, { name, value, }) => this.setState({ [name]: value, });
 
   handleSubmit = (e) => {
     e.preventDefault()
